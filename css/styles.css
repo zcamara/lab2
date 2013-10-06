@@ -17,27 +17,56 @@ nav {
 	background-color: #D74710;
 	margin: 5px; 
 	border-radius: 5px;
-	padding: 10px;
+	padding: 9px;
 }
 
 li {
 	display:inline;
 	font-weight: bold;
-	padding: 10px;
+	
 }
 
 .header_content a {
 	text-decoration: none;
 	color: #FFF;
+	padding: 6px;
 }
 
-.content{
+.header_content a:hover {
+	background-color: #FF9D45;
+	border-radius: 5px;
+}
+
+.content {
 	border: 1px solid #FFF;
     background-color: #FFF;
     box-shadow: 1px 1px 1px #888;
     margin: 0 auto;
     width: 80%;
     padding: 5px;
+}
+
+.heading {
+	font-size: 24px;
+	font-weight: bold;
+	color: #116189;
+}
+
+.bio {
+	background-image: url(../img/person.jpg);
+	background-position: left;
+	background-repeat: no-repeat;
+	padding-left: 80px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	min-height: 52px;
+}
+
+.title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #116189;
 }
 
 .name {
@@ -53,16 +82,23 @@ li {
 
 .leftpic {
     float:left;
+    padding-right: 5px;
 }
 
-.iconleft {
-	background-image: url('../img/factory.jpg');
-	background-position: left top;
-	background-repeat: no-repeat;
-	padding-left: 80px;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	min-height: 52px;
-	border: 1px solid #CCC;
+.rightpic {
+	float: right;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.footer_content {
+	font-style: italic;
+	font-size: 80%;
+	border-top: solid thin #C0C0C0;
 }
