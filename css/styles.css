@@ -32,6 +32,10 @@ li {
 	padding: 6px;
 }
 
+.body_content {
+	overflow: hidden;
+}
+
 .header_content a:hover {
 	background-color: #FF9D45;
 	border-radius: 5px;
